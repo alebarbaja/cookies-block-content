@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+body {
+  background-color: #DCEDC8;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 80px;
+}
+
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  border: 2px solid;
+  padding: 3px 6px;
+  transition: all .3s;
+}
+a:hover,
+a:visited:hover,
+a:link:hover {
+  border: 2px solid transparent;
+  background-color: #000;
+  color: #fff;
+}
+
+.wrapper {
+  padding: 0 40px;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  margin-top: 40px;
+}
+
+.block-content {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.aceptar-cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  font-size: 0.9em;
+  background-color: #fff;
+  z-index: 1;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.aceptar-cookies p {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: border-bottom .4s ease-in-out;
+}
+.aceptar-cookies p:hover {
+  border-bottom: 2px solid;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Bloquear contenido con cookies</title>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <h1>Bloquear contenido hasta que acepte cookies</h1>
+
+    <h2>Una forma de hacerlo, con JavaScript</h2>
+
+    <p>¡Hola! Con esto del RGPD muchas empresas están empezando a pedir poder bloquear el contenido hasta que se acepten las cookies.</p>
+
+    <p>Este método es uno muy simple y fácil de superar si se tiene un mínimo conocimiento de HTML/CSS, muy mínimo. Pero para el usuario promedio, puede ser práctico que no pueda ver el contenido hasta que acepte las cookies.</p>
+
+    <p>Lo que hago es aplicar un div por sobre todo el contenido, de tal forma que no se pueda hacer click en ninguna parte, sólo observar la página actual, para ello le apliqué un poco de opacidad.</p>
+
+    <p>Espero que a alguien le sirva, al menos hasta implementar algo mucho más difícil de sortear. ¡Gracias por mirar!</p>
+
+    <p id="copyright" class="copyright">Un ejercicio hecho por <a href="https://alejandronarvaja.com" target="_blank">Ale Narvaja</a></p> <span id="muajaja">(prueba hacer click en mi nombre, no podrás muajaja)</span>
+
+    <div id="block-content" class="block-content"></div>
+
+    <div id="aceptar-cookies" class="aceptar-cookies">
+      <p>Aceptar cookies <span>(de lo contrario, no podrá continuar)</span></p>
+    </div>
+
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
